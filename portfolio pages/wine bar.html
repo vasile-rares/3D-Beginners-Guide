@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D | Portfolio</title>
+    <link rel="shortcut icon" type="images/png" href="img/favicon.png">
+    <link rel="stylesheet" href="portfolio-pages.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-container">
+        <nav role="navigation" class="nav-menu">
+          <a href="../portfolio.html">
+            <p class="logo">3D BEGINNER'S GUIDE</p>
+          </a>
+          <div class="social-media">
+            <button onclick="location.href='https://www.instagram.com/alfa.xyz_'" target="_blank">
+              <img src="img/instagram.svg" alt class="logo">
+            </button>
+            <button onclick="location.href='https://www.artstation.com/alfa_xyz'" target="_blank">
+              <img src="img/artstation.svg" alt class="logo">
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="page-wrap">
+      <div class="showcase">
+        <div class="container">
+          <div class="slider">
+            <div><img id="sized" src="img/wine bar/Bar.png"></div>
+            <div><img id="sized" src="img/wine bar/Wine-Bar-Portrait.jpg"></div>
+          </div>
+          <div class="grid">
+            <div class="left">
+              <div class="title">
+                <h1>"WINE BAR"</h1>
+              </div>
+              <div class="info">
+                <div class="avatar">
+                  <img src="img/logo bej-1.jpg">
+                  <p>rares.alfa</p>
+                </div>
+                <div class="date">
+                  <h1>Published</h1>
+                  <p>May 18,2022</p>
+                </div>
+              </div>
+              <div class="description">
+                <p1>Wine Bar 🍷</p1>
+                <p2 style="border-top: none; padding-block: 0;"></p2>
+                <div class="contact">
+                  <h1>Only for business inquiries:</h1>
+                  <p>alfaxyz.info@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <a href="https://www.instagram.com/p/CdtL8IvKzmT/?utm_source=ig_web_copy_link" target="_blank">View Post</a>
+              <div class="info">
+                <h1>Softwares Used</h1>
+                <div class="flex">
+                  <h1>Sculpting</h1>
+                  <p>ZBrush</p>
+                </div>
+                <div class="flex">
+                  <h1>Lighting & Rendering</h1>
+                  <p>Blender</p>
+                </div>
+                <div class="flex">
+                  <h1>Texturing</h1>
+                  <p>Substance Painter</p>
+                </div>
+                <div class="flex">
+                  <h1>Normal Mapping</h1>
+                  <p>Marmoset</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="avatar">
+            <img src="../images/logo bej-1.jpg">
+            <p>3D BEGINNER'S GUIDE</p>
+          </div>
+          <div class="grid">
+            <div class="explore">
+              <h1>EXPLORE</h1>
+              <a href="../index.html">Home</a>
+              <a href="../getting-started.html">Getting Started</a>
+              <a href="../jobs.html">Jobs</a>
+              <a href="../portfolio.html">Portfolio</a>
+              <a href="../tools.html">Tools</a>
+            </div>
+            <div class="social-media">
+              <h1>APPS</h1>
+              <a href="https://www.adobe.com/products/substance3d-painter.html">Adobe Substance Painter</a>
+              <a href="https://www.autodesk.com/products/maya/overview?term=1-YEAR&tab=subscription">Autodesk Maya</a>
+              <a href="https://www.blender.org/">Blender</a>
+              <a href="https://www.maxon.net/en/cinema-4d">Cinema 4D</a>
+              <a href="https://www.unrealengine.com/en-US">Unreal Engine</a>
+              <a href="https://pixologic.com/">ZBrush</a>
+            </div>
+            <div class="about">
+              <h1>ABOUT</h1>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alfaxyz.info@gmail.com" target="_blank">If you need any help, <p1>Contact me!</p1></a>
+            </div>
+          </div>
+          <div style="width: 100%; height: 1px; background-color: #151314; opacity: 20%; margin-top: 1em;"></div>
+          <div class="info">
+            <p>Made by <p1>Rares</p1></p>
+            <p>Copyright © 2023 All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('.slider').slick({
+              dots: true,
+              infinite: false,
+              speed: 500,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              adaptiveHeight: true,
+              prevArrow: '<img src="img/arrow.png" alt class="slick-prev">',
+              nextArrow: '<img src="img/arrow.png" alt class="slick-next">',
+          });
+      });
+    </script>
+    <script type="text/javascript" src="../script.js"></script>
+  </body>
+</html>
